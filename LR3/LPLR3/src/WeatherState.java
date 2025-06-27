@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class WeatherState {
+public interface WeatherState {
+    void display(CityWeather context);
 }
